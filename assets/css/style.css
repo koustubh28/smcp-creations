@@ -625,3 +625,55 @@ footer {
     font-size: 1.2rem;
   }
 }
+
+/* media query for mobile phone */
+@media only screen and (max-width: 420px) {
+  input[type="checkbox"] {
+    display: none;
+  }
+  /*HAMBURGER MENU*/
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+
+  footer {
+    height: 150px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    background-color: #000000;
+    overflow: hidden;
+    width: 50%;
+    height: 40%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+
+  .work-container:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 60;
+    left: 40;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
