@@ -443,7 +443,7 @@ span.text-skills {
 }
 
 .map-img:hover {
-  transform: scale(1.5);
+  transform: scale(1.18);
   transition: 0.2s ease-in-out;
 }
 
