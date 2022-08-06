@@ -82,33 +82,35 @@
 
     <!-- header starts -->
     <header>
-      <nav class="navbar">
-        <!-- LOGO -->
-        <div class="logo text-uppercase">SMCP Education & Creations</div>
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
-          <!-- USING CHECKBOX HACK -->
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <!-- NAVIGATION MENUS -->
-          <div class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#our-portfolio">Our Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </div>
-        </ul>
-      </nav>
+      <!-- <nav class="navbar"> -->
+      <!-- LOGO -->
+      <div class="logo text-uppercase">SMCP Education & Creations</div>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#about">About</a>
+        <a href="#our-portfolio">Our Work</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+
+      <span
+        class="hamburger"
+        style="font-size: 30px; cursor: pointer"
+        onclick="openNav()"
+        >&#9776;</span
+      >
 
       <!-- Jumbotron code -->
       <div
         class="mt-4 p-5 text-center header-jumbotron text-white-rounded"
         id="home"
       >
-        <h3>Hii! I'm Koustubh Muktibodh.</h3>
-        <h4 class="slide-in-blurred-left">
-          eLearning Developer & Digital Marketer at SMCP Ed. & Creations.
-        </h4>
+        <h1 class="h1-style">Hii&#128578; I'm Koustubh Muktibodh.</h1>
+        <h3 class="slide-in-blurred-left">
+          Co-founder of SMCP Ed. & Creations.
+        </h3>
       </div>
     </header>
     <!-- header ends -->
@@ -486,7 +488,7 @@
                   class="fa fa-brands fa-linkedin fa-2x"
                   style="color: #0077b5"
                 ></i
-                ><a>koustubh-muktibodh-5091171a3</a>
+                ><a>koustubh-muktibodh</a>
               </li>
             </ul>
           </div>

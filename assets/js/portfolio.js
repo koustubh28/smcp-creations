@@ -13,3 +13,11 @@ btnToggle.addEventListener("click", handleBackground);
 function handleBackground() {
   hero.classList.toggle("ChangeHeroBg");
 }
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
